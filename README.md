@@ -1,6 +1,4 @@
-# DigitSynth
-
-DigitSynth is a wearable MIDI controller that interacts with the Roland JD-Xi synthesiser. It allows the user to trigger chords and shape the resulting sound in real time using finger movements.
+A wearable MIDI controller that interacts with the Roland JD-Xi synthesiser. It allows the user to trigger chords and shape the resulting sound in real time using finger movements.
 
 ## Hardware Requirements
  
@@ -36,7 +34,7 @@ A MIDI-receiving device is required to complete the setup, either a hardware syn
 ## Software Requirements
 
 ### Toolchain
-Our build system is CMake, but we provide a simple top-level Makefile to make things easy. Feel free to run the `cmake` commands manually if you are so inclined. The `install-deps.sh` script will automatically install dependencies required by DigitSynth. 
+Build system is CMake, but we provide a simple top-level Makefile to make things easy. Feel free to run the `cmake` commands manually if you are so inclined. The `install-deps.sh` script will automatically install dependencies required by DigitSynth. 
 
 ## Installing
 A simple install can be performed using the `.deb` package in the latest release. Download `digitsynth-aarch64.deb`, then run ```bash sudo dpkg -i digitsynth-aarch64.deb``` in your terminal after navigating to the directory into which the archive was downloaded. The standalone binary can also be found in the release.  Note that dependencies still need to be installed. 
